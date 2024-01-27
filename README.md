@@ -51,7 +51,8 @@ Here is an example of how to use the Sudoku Game:
 
 int main() {
     int initialGrid[N][N] = {
-        // Your Sudoku puzzle here
+        // place your sudoku grid here
+        // use 0s for empty spaces
     };
 
     SudokuSolver sudoku(initialGrid);
